@@ -1,13 +1,11 @@
-# Arya M. Pathak
+## **Arya M. Pathak**
 
-
-Pune, Maharashtra, India  
-Email: [arya.pathak@outlook.in](mailto:arya.pathak@outlook.in)  
-LinkedIn: [linkedin.com/in/arya-pathak-a53a58256](https://www.linkedin.com/in/arya-pathak-a53a58256)  
-Portfolio: [arya2004.github.io](https://arya2004.github.io/)  
-GitHub: [github.com/arya2004](https://github.com/arya2004)  
-Blog: [arya2004.hashnode.dev](https://arya2004.hashnode.dev/)
-
+📍 **Pune, Maharashtra, India**  
+📧 **Email:** [arya.pathak@outlook.in](mailto:arya.pathak@outlook.in)  
+💼 **LinkedIn:** [linkedin.com/in/arya-pathak-a53a58256](https://www.linkedin.com/in/arya-pathak-a53a58256)  
+🌐 **Portfolio:** [arya2004.github.io](https://arya2004.github.io/)  
+💻 **GitHub:** [github.com/arya2004](https://github.com/arya2004)  
+📝 **Blog:** [arya2004.hashnode.dev](https://arya2004.hashnode.dev/)
 
 
 
@@ -15,53 +13,57 @@ Blog: [arya2004.hashnode.dev](https://arya2004.hashnode.dev/)
 
 ## Stats
 
-![Profile views](https://komarev.com/ghpvc/?username=arya2004&label=Profile%20views&color=0e75b6&style=flat)
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=arya2004)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/_arya2004?logo=twitter&style=for-the-badge)](https://twitter.com/_arya2004)
+<p align="center">
+ <img src="https://komarev.com/ghpvc/?username=arya2004&label=Profile%20views&color=0e75b6&style=flat" alt="arya2004" /> 
+</p>
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=arya2004&show_icons=true&locale=en)
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arya2004&show_icons=true&locale=en" alt="arya2004" /></p>
+
 
 
 ---
 
-## Education
+Here's a more elegant and visually appealing version of the **Education** section:
 
-**Vishwakarma Institute of Technology, Pune**  
+---
+
+## **Education**
+
+### **Vishwakarma Institute of Technology, Pune**  
 **Bachelor of Technology, Computer Engineering**  
-**CGPA:** 8.87  
-*2022 – 2026*
+📊 **CGPA:** 8.91  
+📅 *2022 – 2026*
 
-**SP College, Pune**  
-**Higher Secondary Certificate**  
-**Percentage:** 83.33%  
-*2020 – 2022*
+### **SP College, Pune**  
+**Higher Secondary Certificate (HSC)**  
+📈 **Percentage:** 83.33%  
+📅 *2020 – 2022*
 
-**SPM English School, Pune**  
-**Secondary School Certificate**  
-**Percentage:** 88.80%  
-*2010 – 2020*
+### **SPM English School, Pune**  
+**Secondary School Certificate (SSC)**  
+📈 **Percentage:** 88.80%  
+📅 *2010 – 2020*
+
+---
+
+## **Experience**
+
+### **Alemeno**  
+**Software Developer Intern** – *Remote (Pune, MH)*  
+📅 *July 2024 – August 2024*  
+-  Developed a Streamlit-based system to automate bid comparisons against SOTR, enhancing accuracy and efficiency.  
+-  Built a system to parse and compare bid documents, generating AI-driven compliance matrices with summaries and flags.  
+-  Deployed the solution on Azure using VMs for Streamlit, GPU instances for embeddings, and Azure OpenAI for LLM integration.  
 
 ---
 
-## Experience
-
-**Alemeno | Remote Pune, MH**  
-**Software Developer Intern**  
-*July 2024 – August 2024*  
-- Developed using Streamlit to automate bid comparison against SOTR, improving accuracy and efficiency. Built a system to parse and compare bid documents, generating AI-driven compliance matrices with summaries and flags.
-- Deployed on Azure with VMs for Streamlit, GPU instances for embeddings, and Azure OpenAI for LLM integration.
-
-**CodingKraft | On-site Pune, MH**  
-**MERN Stack Web Development Intern**  
-*June 2024 – July 2024*  
-- Engineered a Python Remote Code Execution Engine with Node.js, deployed it on EC2, incorporating a reverse proxy.
-- Innovated an in-browser secure Python code execution solution using WebAssembly and Pyodide.
-- Created a C# NuGet package for secure local Python code execution within the game.
-
----
+### **CodingKraft**  
+**MERN Stack Web Development Intern** – *On-site (Pune, MH)*  
+📅 *June 2024 – July 2024*  
+-  Engineered a Python Remote Code Execution Engine with Node.js, deploying it on EC2 with a reverse proxy setup.  
+-  Innovated an in-browser secure Python code execution solution using WebAssembly and Pyodide.  
+-  Created a C# NuGet package for secure local Python code execution within gaming environments.  
 
 ## Projects
 
@@ -85,30 +87,86 @@ Blog: [arya2004.hashnode.dev](https://arya2004.hashnode.dev/)
 - Created a data ingestion, transformation, and training pipeline that achieved an R² value of 0.99 using a Decision Tree model.
 - Deployed the Flask web application as a Docker container on Azure Web Apps, using an enhanced multi-stage Dockerfile stored on Azure Container Registry. Implemented GitHub Actions for seamless CI integration.
 
-### Traffic Analyst
-- **Tech Stack:** Bing Maps API, Azure Maps
-- Developed a Traffic Analyst tool using Bing Maps API and Azure Maps to gather real-time traffic data and perform comprehensive analysis to derive actionable insights.
+### PulseGuard
+- **Tech Stack:** IoT, MongoDB, HighChartsJs, ESP32, REST API
+- Developed an IoT-based remote patient pulse rate monitoring system using MongoDB Timeseries for storing readings.
+- Integrated HighChartsJs for live visualization of pulse readings.
+- Created an MVC-based CRUD application, programmed ESP32 to send readings via REST API, and implemented a third-party API for sending WhatsApp message alerts based on the response.
+
+### Aerial2Map | Pix2Pix-based Satellite-to-Map Translation
+- **Tech Stack:** PyTorch, U-Net, PatchGAN, Python
+- Implemented a Pix2Pix GAN model to convert satellite images into map routes, leveraging U-Net for the generator and PatchGAN for the discriminator.
+- Configured loss functions using BCEWithLogitsLoss for adversarial loss and L1Loss for reconstruction, weighted by a λ of 200 for balance.
+- Trained the model with a batch size of 4 on 256x256 RGB inputs, achieving progressive enhancement in map realism and structure accuracy over 20 epochs.
+
+### Ray Tracer | Basic Ray Tracer in C++
+- **Tech Stack:** C++, SDL2, CMake, Makefile
+- Developed a basic ray tracer from scratch using C++ and SDL2 for rendering and visualization.
+- Implemented core ray tracing algorithms, including ray-sphere intersection, shading, and reflection calculations.
+- Configured build automation and project management using CMake and Makefile.
+
+
+### Packet Sniffer | Real-Time Network Traffic Analysis Tool
+- **Tech Stack:** Java, pcap4j, Java Swing
+- Developed a real-time packet sniffer using Java, leveraging the pcap4j library for live network packet capture and analysis.
+- Implemented a graphical interface with Java Swing, enabling features such as network interface selection, detailed packet inspection, and live statistics visualization.
+- Added functionality to export captured packets in `.pcap` format, ensuring compatibility with offline analysis tools.
+
+
+### Traffic Analyst Tool
+- **Tech Stack:** JavaScript, TypeScript, Node.js, Express.js, MongoDB, Docker, Bing Maps API, Azure Maps
+- Developed a comprehensive traffic management system using Node.js and Express.js for back-end, MongoDB for data storage, and Docker for deployment. Integrated Bing Maps API and Azure Maps for real-time traffic data analysis to derive actionable insights.
+
+### Chess Game in C# WPF
+- **Tech Stack:** C#, WPF, MVVM, XAML
+- Developed a chess game with essential functionalities like move validation, game timer, and a modern UI using C# and WPF.
+- Implemented an efficient game state management system to handle player moves, checkmate conditions, and undo functionality.
+- Utilized MVVM architecture to ensure clean and maintainable code structure, and designed UI components with XAML.
+
+### Credit Score Classification | Machine Learning Project
+
+- **Tech Stack:** R, Jupyter Notebook, SMOTE, Random Forest, Logistic Regression, Naive Bayes, Git
+- Built and evaluated machine learning models for credit score classification, optimizing performance with SMOTE and data preprocessing pipelines.
+- Deployed the final model as a web application using Jupyter Notebooks for real-time credit score prediction.
+
+### GoBanter | Lightweight Real-Time Chat Application  
+- **Tech Stack:** Go, Gorilla WebSocket, Pat URL muxer, jQuery  
+- Implemented real-time messaging using Gorilla WebSocket for efficient bi-directional communication and Pat for URL routing.  
+- Integrated a minimalistic front-end with jQuery and automated application setup with modular scripts for streamlined deployment.  
+
+
+
+### MicroCryptoMonitor | Cryptocurrency Mining Monitoring System
+- **Tech Stack:** ESP32, Arduino, Docker, InfluxDB, Grafana, Docker Compose
+- Built a scalable monitoring system for cryptocurrency mining farms, using ESP32 microcontrollers to gather real-time data on temperature, power usage, and hash rates.
+- Deployed InfluxDB for time-series data management and Grafana dashboards for visualization and alerting, leveraging Docker Compose for streamlined deployment.
+
+### CMT Author Auto-Fill Chrome Extension  
+- **Tech Stack:** JavaScript, HTML, CSS, Chrome Extension APIs  
+- Built a Chrome extension to save, load, and auto-fill author details (Email, Name, Organization, Country) in Microsoft Conference Management Toolkit (CMT) forms with a responsive popup interface for enhanced user productivity.  
+
+
+
+
+### Turing Machine Simulator in C
+- **Tech Stack:** C, GCC, CMake  
+- Implemented a Turing Machine simulator with dynamic tape expansion, customizable transitions via input files, and CLI support for running simulations with optional initial tape configurations.
+
+### Markdown Transpiler | Markdown to HTML Converter  
+- **Tech Stack:** C++, Lex, Yacc, CMake, Flex, Bison  
+- Implemented a transpiler using Lex and Yacc for parsing Markdown and translating it to HTML, with core logic in C++.  
+- Structured the project with CMake for streamlined builds and extensibility through customizable grammar rules.  
 
 ### AutoExpress.Js
 - **Tech Stack:** Express.js, Node.js, CLI
 - Developed an open-source Express.js project generator tool that automates the creation of API and MVC project structures with integrated database connections and optional view engines.
 - Implemented a robust CLI with interactive prompts to streamline project setup, enhancing developer productivity and standardizing project configurations.
 
-### Ray Tracing C++
-- **Tech Stack:** C++, SDL2
-- Built a basic Ray Tracer from scratch in C++.
-- Computed all necessary mathematical operations for rendering and used SDL2 for visualization.
 
-### XML Parser
-- **Tech Stack:** C++, XML
-- Built a basic XML parser from scratch in C++.
-- Handled various XML parsing tasks, including reading and writing XML files.
-
-### PulseGuard
-- **Tech Stack:** IoT, MongoDB, HighChartsJs, ESP32, REST API
-- Developed an IoT-based remote patient pulse rate monitoring system using MongoDB Timeseries for storing readings.
-- Integrated HighChartsJs for live visualization of pulse readings.
-- Created an MVC-based CRUD application, programmed ESP32 to send readings via REST API, and implemented a third-party API for sending WhatsApp message alerts based on the response.
+### XML Parser in C
+- **Tech Stack:** C
+- Built an XML parser to load XML files, navigate XML trees, and access elements and attributes efficiently.  
+- Optimized parsing algorithms for fast performance and ensured portability using the Standard C Library.  
 
 
 
