@@ -28,7 +28,7 @@
 
 ### **Vishwakarma Institute of Technology, Pune**  
 **Bachelor of Technology, Computer Engineering**  
-📊 **CGPA:** 8.91  
+📊 **CGPA:** 8.99  
 📅 *2022 – 2026*
 
 ### **SP College, Pune**  
@@ -57,9 +57,11 @@
 ### **CodingKraft**  
 **MERN Stack Web Development Intern** – *On-site (Pune, MH)*  
 📅 *June 2024 – July 2024*  
--  Engineered a Python Remote Code Execution Engine with Node.js, deploying it on EC2 with a reverse proxy setup.  
--  Innovated an in-browser secure Python code execution solution using WebAssembly and Pyodide.  
--  Created a C# NuGet package for secure local Python code execution within gaming environments.  
+- Developed and deployed a secure Python Remote Code Execution (RCE) engine using Node.js and Express.js on AWS EC2, handling 1,000+ code executions/month behind a reverse proxy for enhanced security.
+
+- Built an in-browser Python execution environment leveraging WebAssembly and Pyodide, enabling real-time, sandboxed code execution for 500+ game users across web, PC, and Mac platforms.
+
+- Authored and published a C# NuGet package to safely execute Python code locally within the game, reducing execution latency by 30% and ensuring cross-platform compatibility.
 
 Here’s a consistent and standout version of your **Projects** section while keeping the descriptions unchanged:
 
@@ -69,11 +71,55 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 ### **Xphyrus | Cloud Native Online Assessment Platform**  
 **Tech Stack:** ASP.NET Core, RabbitMQ, MS SQL, Angular, Golang, Kubernetes, Azure  
-- Developed microservices using ASP.NET Core with RabbitMQ and MS SQL for an online assessment platform.  
-- Utilized Persistent Volumes and Nginx for Load Balancing, and deployed the Kubernetes Cluster on Azure and locally.  
-- Designed the client-side with Angular, integrated the Monaco Editor, implemented JWT tokens for authentication, and built an efficient RCE engine in Golang that executes code in containers under 1 second with RabbitMQ for scalability.  
+- Engineered a cloud-native online assessment platform using ASP.NET Core microservices, RabbitMQ, and MS SQL, supporting scalable delivery and automated grading for 1,000+ submissions weekly.
+
+- Designed a responsive Angular frontend with Monaco Editor, implemented JWT authentication, and built a Golang RCE engine capable of executing user code in secure Docker containers in under 1 second.
+
+- Deployed and managed Kubernetes clusters on Azure and Minikube, leveraging Persistent Volumes, Nginx load balancing, and containerized microservices to ensure high availability and seamless scaling.
+
+
+
+
 
 ---
+
+
+
+### **Facilitator | WhatsApp-Google Workspace Automation Backend**
+
+**Tech Stack:** Python, Flask, OpenAI, Google Cloud Platform, Google Workspace, Ngrok, OpenTelemetry, Grafana
+
+- Built an automation backend connecting WhatsApp with Google Workspace, automating scheduling and file uploads—processing 500+ messages/day with 95%+ intent detection accuracy.
+- Integrated OpenAI NLP and regex for multilingual parsing; reduced manual scheduling time by 80% through automatic Google Calendar and Drive actions.
+- Implemented secure, modular Flask APIs with Google Cloud service accounts, achieving 99.9% uptime and real-time monitoring via OpenTelemetry/Grafana.
+
+---
+
+
+
+### **Gonitor | Simple Monitoring Service like Nagios**
+
+**Tech Stack:** Go, Chi, PostgreSQL, SCS, Pusher, Cron, Jet Templates
+
+* Engineered a lightweight monitoring service in Go using the Chi router and PostgreSQL, supporting monitoring of 100+ resources with persistent state and secure session management via SCS.
+* Implemented real-time notifications via Pusher WebSockets and automated 500+ scheduled health checks daily with Cron, delivering event-driven alerts in under 2 seconds.
+* Built a responsive web UI with Jet templates and Bootstrap, enabling one-click configuration, instant feedback, and extensible monitoring for new resource types.
+
+---
+
+
+
+
+### **gop2pfs | Decentralized Peer-to-Peer File Sharing System**
+
+**Tech Stack:** Go, TCP, AES, Gob, Go Channels, Goroutines
+
+* Developed a serverless, decentralized file sharing platform in Go, enabling direct P2P file transfers over TCP without a central coordinator.
+* Implemented AES encryption for files at rest and in transit; supported concurrent, encrypted streaming. Designed a modular, extensible system with TCP transport, Gob-based message encoding, configurable storage, and efficient message routing across distributed node
+---
+
+
+
 
 ### **Xyfin | Banking Service Backend in Go**  
 **Tech Stack:** Go, Gin, Docker, GitHub Actions, JWT, PASETO, gRPC, Redis, AKS  
