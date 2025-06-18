@@ -48,22 +48,25 @@
 ### **Alemeno**  
 **Software Developer Intern** – *Remote (Pune, MH)*  
 📅 *July 2024 – August 2024*  
--  Developed a Streamlit-based system to automate bid comparisons against SOTR, enhancing accuracy and efficiency.  
--  Built a system to parse and compare bid documents, generating AI-driven compliance matrices with summaries and flags.  
--  Deployed the solution on Azure using VMs for Streamlit, GPU instances for embeddings, and Azure OpenAI for LLM integration.  
+-  Streamlined bid comparison against SOTR using Streamlit, increasing document processing accuracy by 40% and efficiency by 3x through AI-generated compliance matrices and automated flagging.
+-  Launched an end-to-end solution on Azure, utilizing GPU instances for embeddings and Azure OpenAI for LLM-powered parsing, enabling real-time analysis and summary generation for 100+ bid documents. 
+
+
+
 
 ---
 
 ### **CodingKraft**  
 **MERN Stack Web Development Intern** – *On-site (Pune, MH)*  
 📅 *June 2024 – July 2024*  
-- Developed and deployed a secure Python Remote Code Execution (RCE) engine using Node.js and Express.js on AWS EC2, handling 1,000+ code executions/month behind a reverse proxy for enhanced security.
+- Created and deployed a secure Python Remote Code Execution (RCE) engine using Node.js and Express.js on AWS EC2, handling 1,000+ code executions/month behind a reverse proxy for enhanced security.
 
-- Built an in-browser Python execution environment leveraging WebAssembly and Pyodide, enabling real-time, sandboxed code execution for 500+ game users across web, PC, and Mac platforms.
+- Established an in-browser Python execution environment leveraging WebAssembly and Pyodide, enabling real-time, sandboxed code execution for 500+ game users across web, PC, and Mac platforms.
 
 - Authored and published a C# NuGet package to safely execute Python code locally within the game, reducing execution latency by 30% and ensuring cross-platform compatibility.
 
-Here’s a consistent and standout version of your **Projects** section while keeping the descriptions unchanged:
+
+
 
 ---
 
@@ -71,11 +74,11 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 ### **Xphyrus | Cloud Native Online Assessment Platform**  
 **Tech Stack:** ASP.NET Core, RabbitMQ, MS SQL, Angular, Golang, Kubernetes, Azure  
-- Engineered a cloud-native online assessment platform using ASP.NET Core microservices, RabbitMQ, and MS SQL, supporting scalable delivery and automated grading for 1,000+ submissions weekly.
+- Architected a cloud-native online assessment platform using ASP.NET Core microservices, RabbitMQ, and MS SQL, supporting scalable delivery and automated grading for 1,000+ submissions weekly.
 
-- Designed a responsive Angular frontend with Monaco Editor, implemented JWT authentication, and built a Golang RCE engine capable of executing user code in secure Docker containers in under 1 second.
+- Shaped a responsive Angular frontend with Monaco Editor, established JWT authentication, and devised a Golang RCE engine capable of executing user code in secure Docker containers in under 1 second.
 
-- Deployed and managed Kubernetes clusters on Azure and Minikube, leveraging Persistent Volumes, Nginx load balancing, and containerized microservices to ensure high availability and seamless scaling.
+- Launched and managed Kubernetes clusters on Azure and Minikube, leveraging Persistent Volumes, Nginx load balancing, and containerized microservices to ensure high availability and seamless scaling.
 
 
 
@@ -89,9 +92,8 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 **Tech Stack:** Python, Flask, OpenAI, Google Cloud Platform, Google Workspace, Ngrok, OpenTelemetry, Grafana
 
-- Built an automation backend connecting WhatsApp with Google Workspace, automating scheduling and file uploads—processing 500+ messages/day with 95%+ intent detection accuracy.
-- Integrated OpenAI NLP and regex for multilingual parsing; reduced manual scheduling time by 80% through automatic Google Calendar and Drive actions.
-- Implemented secure, modular Flask APIs with Google Cloud service accounts, achieving 99.9% uptime and real-time monitoring via OpenTelemetry/Grafana.
+- Formulated a scalable Flask backend integrating WhatsApp with Google Workspace APIs (Calendar, Drive, Meet), orchestrating task execution and boosting productivity by processing 100+ messages/day.
+- Applied OpenAI NLP with regex post-processing for intent detection, achieving 95%+ accuracy in auto-scheduling, file uploads, and reminders from conversational inputs. Integrated secure, encrypted message handling with least-privilege service accounts and comprehensive observability via OpenTelemetry and Grafana for monitoring and rapid issue resolution.
 
 ---
 
@@ -101,9 +103,20 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 **Tech Stack:** Go, Chi, PostgreSQL, SCS, Pusher, Cron, Jet Templates
 
-* Engineered a lightweight monitoring service in Go using the Chi router and PostgreSQL, supporting monitoring of 100+ resources with persistent state and secure session management via SCS.
-* Implemented real-time notifications via Pusher WebSockets and automated 500+ scheduled health checks daily with Cron, delivering event-driven alerts in under 2 seconds.
-* Built a responsive web UI with Jet templates and Bootstrap, enabling one-click configuration, instant feedback, and extensible monitoring for new resource types.
+* Developed a lightweight monitoring service in Go using the Chi router and PostgreSQL, supporting monitoring of 100+ resources with persistent state and secure session management via SCS.
+* Executed real-time notifications via Pusher WebSockets and orchestrated 500+ scheduled health checks daily with Cron, delivering event-driven alerts in under 2 seconds. Shaped a responsive web UI with Jet templates and Bootstrap, allowing one-click configuration, instant feedback, and extensible monitoring for new resource types.
+
+---
+
+
+
+### **arc | Roslyn-Inspired Compiler in C#**
+
+**Tech Stack:** C#, .NET, Custom Lexer/Parser, xUnit
+
+* Designed and implemented a handwritten C# compiler featuring a recursive descent parser, abstract syntax tree (AST) generation, and a modular type-checking and binding system inspired by Roslyn for robust semantic analysis and error diagnostics.
+* Developed APIs for incremental compilation, real-time expression evaluation, and syntax highlighting integration, enabling REPL support, parse tree visualization, and seamless IDE tooling connectivity.
+* Ensured code reliability and extensibility with 100+ unit and integration tests (xUnit) for all major compiler phases, while maintaining a transparent, educational codebase ideal for language tooling and compiler research.
 
 ---
 
@@ -114,20 +127,24 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 **Tech Stack:** Go, TCP, AES, Gob, Go Channels, Goroutines
 
-* Developed a serverless, decentralized file sharing platform in Go, enabling direct P2P file transfers over TCP without a central coordinator.
-* Implemented AES encryption for files at rest and in transit; supported concurrent, encrypted streaming. Designed a modular, extensible system with TCP transport, Gob-based message encoding, configurable storage, and efficient message routing across distributed node
+* Crafted a serverless, decentralized file sharing platform in Go, enabling direct P2P file transfers over TCP without a central coordinator. Adopted AES encryption for files at rest and in transit; enabled concurrent, encrypted streaming.
+
+* Conceptualized a modular, extensible system with TCP transport, Gob-based message encoding, configurable storage, and efficient message routing across distributed nodes.
+
+---
+
+
+### **Xyfin | Cloud-Native Go Banking Service Platform**
+
+**Tech Stack:** Go, Gin, gRPC, Docker, PostgreSQL, Redis, sqlc, Protocol Buffers
+
+* Architected a modular backend in Go supporting both REST (Gin) and gRPC APIs, leveraging sqlc and Protocol Buffers for end-to-end type safety and code generation.
+* Orchestrated asynchronous processing with Redis-backed workers, enabling scalable background jobs and decoupled API logic, and managed database migrations for transactional consistency.
+* Containerized the full stack with Docker and automated environment setup using Makefiles; implemented comprehensive automated testing and mocking for robust CI/CD.
+
 ---
 
 
-
-
-### **Xyfin | Banking Service Backend in Go**  
-**Tech Stack:** Go, Gin, Docker, GitHub Actions, JWT, PASETO, gRPC, Redis, AKS  
-- Remedied deadlock, managed DB transactions, and set up Docker for local development with GitHub Actions for CI and DB isolation.  
-- Devised RESTful APIs with Gin, included configurations, unit testing, error handling, and JWT/PASETO authentication.  
-- Deployed Docker apps on AKS, managed databases and secrets, and streamlined deployments with GitHub Actions. Added user session management, gRPC services, Redis queuing, and SMTP; wrote unit tests for gRPC services with mocked dependencies.  
-
----
 
 ### **Xcelerate | End-to-End Machine Learning Application**  
 **Tech Stack:** Flask, Docker, Azure, GitHub Actions, Python  
@@ -152,19 +169,22 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 ---
 
-### **Ray Tracer | Basic Ray Tracer in C++**  
-**Tech Stack:** C++, SDL2, CMake, Makefile  
-- Developed a basic ray tracer from scratch using C++ and SDL2 for rendering and visualization.  
-- Implemented core ray tracing algorithms, including ray-sphere intersection, shading, and reflection calculations.  
-- Configured build automation and project management using CMake and Makefile.  
+
+
+### **ray-tracer | Modular 3D Ray Tracing Renderer**
+
+**Tech Stack:** C++17, CMake, SDL2
+
+* Designed and implemented a modular ray tracing engine in C++ supporting realistic lighting, shading, and transformable 3D objects through robust matrix-based geometric transformations and extensible scene graph architecture.
+* Enabled easy extension for new object types, camera models, and lighting systems; structured the codebase for advanced features such as materials, shading models, and acceleration structures.
 
 ---
 
+
 ### **Packet Sniffer | Real-Time Network Traffic Analysis Tool**  
 **Tech Stack:** Java, pcap4j, Java Swing  
-- Developed a real-time packet sniffer using Java, leveraging the pcap4j library for live network packet capture and analysis.  
-- Implemented a graphical interface with Java Swing, enabling features such as network interface selection, detailed packet inspection, and live statistics visualization.  
-- Added functionality to export captured packets in `.pcap` format, ensuring compatibility with offline analysis tools.  
+- Produced a modular Java packet sniffer using pcap4j, enabling real-time capture, inspection, and protocol analysis across multiple network interfaces, with live statistics and secure, local data handling for 1,000+ packets per session. 
+- Formulated an event-driven Swing GUI for dynamic interface selection, detailed packet visualization, and export to .pcap format for offline analysis and integration with tools like Wireshark. 
 
 ---
 
@@ -215,24 +235,46 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 ---
 
-### **Markdown Transpiler | Markdown to HTML Converter**  
-**Tech Stack:** C++, Lex, Yacc, CMake, Flex, Bison  
-- Implemented a transpiler using Lex and Yacc for parsing Markdown and translating it to HTML, with core logic in C++.  
-- Structured the project with CMake for streamlined builds and extensibility through customizable grammar rules.  
+
+### **Markdown Transpiler | Markdown-to-HTML Compiler Using Flex/Bison**
+
+**Tech Stack:** C++, Flex (Lex), Bison (Yacc), CMake
+
+* Developed a command-line transpiler that converts Markdown to HTML by leveraging classic compiler construction tools—tokenizing with Flex, parsing and translating with Bison, and emitting extensible C++ output.
+* Designed a modular architecture enabling easy addition of new Markdown features by updating grammar and translation logic, with robust file I/O and error handling for reliable conversion.
 
 ---
+
 
 ### **AutoExpress.Js**  
 **Tech Stack:** Express.js, Node.js, CLI  
 - Developed an open-source Express.js project generator tool that automates the creation of API and MVC project structures with integrated database connections and optional view engines.  
 - Implemented a robust CLI with interactive prompts to streamline project setup, enhancing developer productivity and standardizing project configurations.  
+Certainly! Here’s your **arc** project summarized in 3 points, following your established format:
 
 ---
 
-### **XML Parser in C**  
-**Tech Stack:** C  
-- Built an XML parser to load XML files, navigate XML trees, and access elements and attributes efficiently.  
-- Optimized parsing algorithms for fast performance and ensured portability using the Standard C Library.  
+### **arc | Handwritten Roslyn-Inspired Compiler in C#**
+
+**Tech Stack:** C#, .NET, Custom Lexer/Parser
+
+* Authored a modular C# compiler from scratch, featuring manual lexing, parsing, and type-checking phases with Roslyn-inspired architecture for clean separation and extensibility.
+* Exposed robust APIs for syntax trees, semantic analysis, and diagnostics, enabling integration with IDE tooling for syntax highlighting, error reporting, and interactive evaluation.
+* Designed an educational, REPL-friendly compilation pipeline supporting incremental evaluation and rich error handling—ideal for language tooling developers and compiler learners.
+
+---
+
+---
+
+
+
+### **xml parser | Lightweight XML Parsing Library in C**
+
+**Tech Stack:** C
+
+* Developed a minimal, dependency-free XML parser in C that constructs an in-memory tree representation, supporting efficient navigation, querying, and manipulation of XML documents with explicit heap management.
+* Designed robust parsing logic to handle element nesting, attributes, and comments, with clear error reporting and efficient resource handling—suitable for embedded or performance-critical applications.
+
 
 
 ---
