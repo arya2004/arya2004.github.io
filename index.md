@@ -1,8 +1,8 @@
 ## **Arya M. Pathak**
 
 📍 **Pune, Maharashtra, India**  
-📧 **Email:** [arya.pathak@outlook.in](mailto:arya.pathak@outlook.in)  
-💼 **LinkedIn:** [linkedin.com/in/arya-pathak-a53a58256](https://www.linkedin.com/in/arya-pathak-a53a58256)  
+📧 **Email:** [arya.m.pathak@gmail.com](mailto:arya.m.pathak@gmail.com)
+💼 **LinkedIn:** [linkedin.com/in/arya-m-pathak](https://www.linkedin.com/in/arya-m-pathak/) 
 🌐 **Portfolio:** [arya2004.github.io](https://arya2004.github.io/)  
 💻 **GitHub:** [github.com/arya2004](https://github.com/arya2004)  
 📝 **Blog:** [arya2004.hashnode.dev](https://arya2004.hashnode.dev/)
@@ -45,12 +45,13 @@
 
 ## **Experience**
 
-### **Alemeno**  
-**Software Developer Intern** – *Remote (Pune, MH)*  
-📅 *July 2024 – August 2024*  
--  Developed a Streamlit-based system to automate bid comparisons against SOTR, enhancing accuracy and efficiency.  
--  Built a system to parse and compare bid documents, generating AI-driven compliance matrices with summaries and flags.  
--  Deployed the solution on Azure using VMs for Streamlit, GPU instances for embeddings, and Azure OpenAI for LLM integration.  
+### **Deloitte**
+
+**Enterprise Technology and Performance Intern** – *Pune, MH*
+📅 *June 2025 – August 2025*
+
+- Built and deployed a Golang-based AI agent bot integrated with Microsoft Teams to automate GCP onboarding and account management via Gemini API function calling, enabling non-technical staff to perform IAM, role, and service account operations through natural language commands.
+- Designed secure, cloud-native backend on Google Cloud Run supporting bulk onboarding, role assignments, and audit logging, reducing multi-user setup and query resolution time by 45%.
 
 ---
 
@@ -63,63 +64,57 @@
 
 - Authored and published a C# NuGet package to safely execute Python code locally within the game, reducing execution latency by 30% and ensuring cross-platform compatibility.
 
-Here’s a consistent and standout version of your **Projects** section while keeping the descriptions unchanged:
 
 ---
 
 ## **Projects**
 
-### **Xphyrus | Cloud Native Online Assessment Platform**  
-**Tech Stack:** ASP.NET Core, RabbitMQ, MS SQL, Angular, Golang, Kubernetes, Azure  
-- Engineered a cloud-native online assessment platform using ASP.NET Core microservices, RabbitMQ, and MS SQL, supporting scalable delivery and automated grading for 1,000+ submissions weekly.
-
-- Designed a responsive Angular frontend with Monaco Editor, implemented JWT authentication, and built a Golang RCE engine capable of executing user code in secure Docker containers in under 1 second.
-
-- Deployed and managed Kubernetes clusters on Azure and Minikube, leveraging Persistent Volumes, Nginx load balancing, and containerized microservices to ensure high availability and seamless scaling.
-
-
-
-
-
----
-
-
-
-### **Facilitator | WhatsApp-Google Workspace Automation Backend**
-
-**Tech Stack:** Python, Flask, OpenAI, Google Cloud Platform, Google Workspace, Ngrok, OpenTelemetry, Grafana
-
-- Built an automation backend connecting WhatsApp with Google Workspace, automating scheduling and file uploads—processing 500+ messages/day with 95%+ intent detection accuracy.
-- Integrated OpenAI NLP and regex for multilingual parsing; reduced manual scheduling time by 80% through automatic Google Calendar and Drive actions.
-- Implemented secure, modular Flask APIs with Google Cloud service accounts, achieving 99.9% uptime and real-time monitoring via OpenTelemetry/Grafana.
-
----
-
-
 
 ### **Gonitor | Simple Monitoring Service like Nagios**
 
-**Tech Stack:** Go, Chi, PostgreSQL, SCS, Pusher, Cron, Jet Templates
+**Tech Stack:** Go, Chi, PostgreSQL, SCS, Pusher, Cron, Jet Templates, Bootstrap
 
-* Engineered a lightweight monitoring service in Go using the Chi router and PostgreSQL, supporting monitoring of 100+ resources with persistent state and secure session management via SCS.
-* Implemented real-time notifications via Pusher WebSockets and automated 500+ scheduled health checks daily with Cron, delivering event-driven alerts in under 2 seconds.
-* Built a responsive web UI with Jet templates and Bootstrap, enabling one-click configuration, instant feedback, and extensible monitoring for new resource types.
+- Created a lightweight monitoring service in Go using the Chi router and PostgreSQL, supporting monitoring of 100+ resources with persistent state and secure session management via SCS.
+- Executed real-time notifications via Pusher WebSockets and orchestrated 500+ scheduled health checks daily with Cron, delivering event-driven alerts in under 2 seconds. Shaped a responsive web UI with Jet templates and Bootstrap, allowing instant feedback, and monitoring for new resource types.
 
 ---
-
-
-
 
 ### **gop2pfs | Decentralized Peer-to-Peer File Sharing System**
 
 **Tech Stack:** Go, TCP, AES, Gob, Go Channels, Goroutines
 
-* Developed a serverless, decentralized file sharing platform in Go, enabling direct P2P file transfers over TCP without a central coordinator.
-* Implemented AES encryption for files at rest and in transit; supported concurrent, encrypted streaming. Designed a modular, extensible system with TCP transport, Gob-based message encoding, configurable storage, and efficient message routing across distributed node
+- Crafted a serverless, decentralized file sharing platform in Go, enabling direct P2P file transfers over TCP without a central coordinator. Adopted AES encryption for files at rest and in transit; enabled concurrent, encrypted streaming.
+- Conceptualized a modular, extensible system with TCP transport, Gob-based message encoding, configurable storage, and efficient message routing across distributed nodes.
+
 ---
 
+### **FyneWire | Cross-Platform Desktop Packet Sniffer & Analyzer**
 
+**Tech Stack:** Go, C, cgo, Fyne, gopacket, Google Gemini, GitHub Actions
 
+- Designed and implemented a modular desktop packet sniffer with a responsive Fyne GUI in Go, using C and cgo for efficient, cross-platform packet capture and live protocol inspection across multiple network interfaces.
+- Enabled AI-powered, natural language filtering for network traffic by integrating Google Gemini with gopacket, supporting dynamic plugin-based packet enrichment, automated testing, and continuous integration via GitHub Actions.
+
+---
+
+### **Facilitator | WhatsApp-Google Workspace Automation Backend**
+
+**Tech Stack:** Python, Flask, OpenAI, Google Workspace, Google Cloud Platform, Ngrok, OpenTelemetry, Grafana
+
+- Formulated a Flask backend connecting WhatsApp with Google Workspace (Calendar, Drive, Meet), streamlining task execution and processing 100+ messages/day to boost productivity.
+- Applied OpenAI NLP with regex for 95%+ intent detection accuracy, enabling automated scheduling and file uploads, with secure message handling and real-time monitoring via OpenTelemetry and Grafana.
+
+---
+
+### **Xphyrus | Cloud Native Online Assessment Platform** 
+
+**Tech Stack:** ASP.NET Core, RabbitMQ, MS SQL, Angular, Golang, Kubernetes, Azure  
+
+- Engineered a cloud-native online assessment platform using ASP.NET Core microservices, RabbitMQ, and MS SQL, supporting scalable delivery and automated grading for 1,000+ submissions weekly.
+- Designed a responsive Angular frontend with Monaco Editor, implemented JWT authentication, and built a Golang RCE engine capable of executing user code in secure Docker containers in under 1 second.
+- Deployed and managed Kubernetes clusters on Azure and Minikube, leveraging Persistent Volumes, Nginx load balancing, and containerized microservices to ensure high availability and seamless scaling.
+
+---
 
 ### **Xyfin | Banking Service Backend in Go**  
 **Tech Stack:** Go, Gin, Docker, GitHub Actions, JWT, PASETO, gRPC, Redis, AKS  
@@ -160,14 +155,6 @@ Here’s a consistent and standout version of your **Projects** section while ke
 
 ---
 
-### **Packet Sniffer | Real-Time Network Traffic Analysis Tool**  
-**Tech Stack:** Java, pcap4j, Java Swing  
-- Developed a real-time packet sniffer using Java, leveraging the pcap4j library for live network packet capture and analysis.  
-- Implemented a graphical interface with Java Swing, enabling features such as network interface selection, detailed packet inspection, and live statistics visualization.  
-- Added functionality to export captured packets in `.pcap` format, ensuring compatibility with offline analysis tools.  
-
----
-
 ### **Traffic Analyst Tool**  
 **Tech Stack:** JavaScript, TypeScript, Node.js, Express.js, MongoDB, Docker, Bing Maps API, Azure Maps  
 - Developed a comprehensive traffic management system using Node.js and Express.js for back-end, MongoDB for data storage, and Docker for deployment. Integrated Bing Maps API and Azure Maps for real-time traffic data analysis to derive actionable insights.  
@@ -193,6 +180,26 @@ Here’s a consistent and standout version of your **Projects** section while ke
 **Tech Stack:** Go, Gorilla WebSocket, Pat URL muxer, jQuery  
 - Implemented real-time messaging using Gorilla WebSocket for efficient bi-directional communication and Pat for URL routing.  
 - Integrated a minimalistic front-end with jQuery and automated application setup with modular scripts for streamlined deployment.  
+
+---
+
+### **arc | Handwritten Compiler in C#**
+
+**Tech Stack:** C#, .NET, xUnit, Custom Recursive Descent Parser
+
+- Engineered a handwritten compiler inspired by Microsoft's Roslyn, implementing recursive descent parsing, syntax tree generation, and a robust type-checking system for expressions and statements.
+- Enabled error diagnostics and REPL-based execution for expression evaluation and statement handling.
+- Built a binding system to transform syntax trees into semantic trees for type inference and scoping, supported by comprehensive xUnit test suites for lexer, parser, and evaluator, including declarative tests for diagnostics and error recovery.
+
+---
+
+### **Vishwapreneur | Decentralized Crowdfunding Platform**
+
+**Tech Stack:** TypeScript, Solidity, React, Next.js, ThirdWeb
+
+- Developed smart contracts using Solidity for secure and transparent crowdfunding transactions.
+- Built a responsive frontend with TypeScript to interact with the Ethereum blockchain.
+- Integrated CSS for styling and enhancing user interface components, ensuring seamless user experience.
 
 ---
 
@@ -234,62 +241,97 @@ Here’s a consistent and standout version of your **Projects** section while ke
 - Built an XML parser to load XML files, navigate XML trees, and access elements and attributes efficiently.  
 - Optimized parsing algorithms for fast performance and ensured portability using the Standard C Library.  
 
-
 ---
+
 
 ## **Technical Skills**
 
-### **Languages:**  
-C#, Go, Python, TypeScript, Solidity, Java, C/C++, Shell, JavaScript, HTML/CSS, R  
+### **Languages:**
 
-### **Frameworks & Libraries:**  
-ASP.NET Core, .NET Framework, Angular, React, Next.js, RabbitMQ, Gin, PyTorch, Flask, Express.js, HighChartsJs, PatchGAN, U-Net, Lex, Yacc, WebAssembly, Pyodide, Gorilla WebSocket  
+Go, Python, C, C#, Java, JavaScript, TypeScript, Shell, SQL, Solidity, C/C++, R, HTML/CSS
 
-### **Databases:**  
-SQL Server, PostgreSQL, MongoDB, MySQL, InfluxDB, Redis  
+### **Frameworks & Libraries:**
 
-### **Tools & Platforms:**  
-Postman, Git/GitHub, Swagger, Jupyter, Visual Studio, VSCode, XUnit, GCC, CMake, Makefile, Docker Compose, Flex, Bison, Chrome Extension APIs  
+ASP.NET Core, .NET Framework, Angular, React, Next.js, RabbitMQ, Gin, PyTorch, Flask, Express.js, HighChartsJs, PatchGAN, U-Net, Lex, Yacc, WebAssembly, Pyodide, Gorilla WebSocket, xUnit, SCS, Bootstrap, Fyne, gopacket
 
-### **Cloud & DevOps:**  
-Azure, AWS, GitHub Actions, Kubernetes, Docker, Nginx, Vagrant, Grafana  
+### **Databases:**
 
-### **Specialized Skills:**  
-- **IoT & Embedded Systems:** ESP32, Arduino  
-- **Web Development:** HTML/CSS, XAML, MVC Architecture  
-- **Machine Learning:** BCEWithLogitsLoss, L1Loss, Decision Trees  
-- **Networking:** pcap4j, REST APIs, gRPC, JWT, PASETO, SMTP  
-- **Game Development:** Unity, C# NuGet Packages  
+PostgreSQL, SQL Server, MongoDB, MySQL, InfluxDB, Redis, AWS RDS
 
+### **Tools & Platforms:**
+
+Git/GitHub, Visual Studio, VS Code, Postman, Swagger, Jupyter, XUnit, GCC, CMake, Makefile, Docker Compose, Flex, Bison, Chrome Extension APIs, Prometheus, Linux, Nginx, Ngrok
+
+### **Cloud & DevOps:**
+
+Azure, AWS, Google Cloud Platform, Kubernetes, Docker, GitHub Actions, Prometheus, Grafana, Vagrant, EC2, Elastic Load Balancer
+
+### **Specialized Skills:**
+
+* **IoT & Embedded Systems:** ESP32, Arduino
+* **Web Development:** HTML/CSS, XAML, MVC Architecture
+* **Machine Learning:** BCEWithLogitsLoss, L1Loss, Decision Trees
+* **Networking:** pcap4j, REST APIs, gRPC, JWT, PASETO, SMTP
+* **Game Development:** Unity, C# NuGet Packages
+* **Security & Monitoring:** AES encryption, OpenTelemetry, SCS, WebSockets, Cron
+* **Parsing/Compiler:** Recursive Descent Parser, Flex, Bison, Lex, Yacc
 
 ---
 
 ## **Achievements, Certifications, and Activities**
 
-- 🏆 **Hackathons:**  
-   - Won **$225** prize in **Hackspiration’24 Hackathon**.  
-   - Secured **3rd place** in **ASTRAFIZZ AI in Space Hackathon**.  
-   - Achieved **11th position** in **KIMO's-Edge '23 Tech Competition**.  
+### 🏆 **Hackathons & Awards**
 
-- 🎓 **Certifications:**  
-   - **Fundamentals of Deep Learning**  
-   - **Postman API Fundamentals**  
-   - **Generative Adversarial Networks (GANs) Specialization**  
-   - **DevOps Beginners to Advanced with Projects**  
+* Top 15 Finalist, Deloitte Hackspliosion Hackathon
+* **Winner** – Biomimicry Build-a-thon
+* **Runner-up** – ISA GenDev Hackathon
+* **3rd Place** – Astrafizz AI in Space Hackathon
+* **\$225 Prize** – Hackspiration’24 Hackathon
+* **11th Position** – KIMO’s-Edge ’23 Tech Competition
+* **Best Paper Award** – IEEE ESCI 2025
 
-- 💡 **Community Contributions:**  
-   - Delivered a session on Git concepts to a **200-person audience** at the **Microsoft Learn Student Club**.  
-   - Improved the club's website (Next.js & PostgreSQL) by pioneering **Redis caching**, reducing latency from **3 seconds to 250ms**.  
+### 📚 **Publications**
 
-- 🤝 **Open Source Mentorship:**  
-   - Mentored for **GirlScript Summer of Code** (Casnat-GroundStation) and **Social Winter of Code**, guiding contributors on projects like **MindSpace** and **Palettegram**.  
-   - Contributed **1000+ open-source contributions** with **70+ merged pull requests** on GitHub.  
+* *A Multimodal Anonymization Framework for MP4 Videos*, IEEE ESCI 2025
+* *Cryptocurrency Mining Farm Monitoring using ESP32, InfluxDB, and Grafana*, IEEE ICBDS 2024
 
----
+### 🎓 **Certifications**
 
-## **Links**
+* Microsoft Azure Fundamentals (AZ-900)
+* MongoDB Associate Database Administrator
+* Github Foundations
+* Google Cloud Computing Foundations
+* AWS Cloud Technology Consultant
+* IBM Z Xplore Advanced
+* Fundamentals of Deep Learning
+* Postman API Fundamentals
+* Generative Adversarial Networks (GANs) Specialization
+* DevOps Beginners to Advanced with Projects
 
-- 🌐 **[Leetcode Profile](https://leetcode.com/ZieglerNattaCatalyst/)**  
-- 🌐 **[Codeforces Profile](https://codeforces.com/profile/ziegler)**  
-- 🌐 **[Codechef Profile](https://www.codechef.com/users/ziegler)**  
-- 🌐 **[HackerRank Profile](https://www.hackerrank.com/profile/arya20j4)**  
+### 💡 **Community Contributions & Activities**
+
+* Delivered a session on Git concepts to a 200+ audience at the Microsoft Learn Student Club
+* Enhanced club website (Next.js & PostgreSQL) with Redis caching, reducing latency from 3 seconds to 250ms
+* Designed, implemented, and tested backend for Airport Authority of India’s Pradipti internship portal (Node.js, AWS RDS Postgres, EC2, Elastic Load Balancer)
+* Mentored for GirlScript Summer of Code (Casnat-GroundStation) and Social Winter of Code (MindSpace, Palettegram)
+
+### 🤝 **Open Source & Mentorship**
+
+* Refactored OpenKruise codebase to update deprecated Golang components
+* Extended Cloudinary Golang SDK samples with advanced use cases
+* Upgraded Cloudinary .NET SDK to .NET 8 and built a Blazor image gallery
+* 1,500+ open-source contributions, 100+ merged PRs, 11 Hacktoberfest PRs
+* Contributed 1,000+ open-source contributions with 70+ merged pull requests on GitHub
+
+### 🏅 **Competitive Programming**
+
+* Leetcode: 1,810
+* Codeforces: Pupil (1238)
+* Codechef: 3 stars (1610)
+* [Leetcode Profile](https://leetcode.com/u/_arya2004/)
+* [Codeforces Profile](https://codeforces.com/profile/_arya2004)
+* [Codechef Profile](https://www.codechef.com/users/arya2004io)
+* [HackerRank Profile](https://www.hackerrank.com/profile/arya20j4)
+
+
+
