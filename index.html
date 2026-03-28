@@ -104,20 +104,22 @@
 ═══════════════════════════════════ -->
   <main>
     <!-- ─── HERO ─── -->
+
     <section id="hero">
       <div class="hero-inner">
         <div class="hero-text">
           <div class="hero-pill">
             <span class="material-symbols-rounded">location_on</span>
-            Pune, India · Open to opportunities
+            Pune, India · Open to full-time SDE roles
           </div>
           <h1 class="hero-name">
             Hey, I'm<br /><span class="accent">Arya Pathak</span>
           </h1>
           <p class="hero-role">
-            <strong>Computer Engineering @ VIT Pune</strong> · SDE Intern at PhonePe ·<br />
-            Go developer · Open source contributor · Hackathon winner
+            <strong>Computer Engineering @ VIT Pune</strong> · SDE Intern at PhonePe ·
+            Go developer · Open source contributor ·
           </p>
+
           <div class="hero-ctas">
             <a class="btn btn-filled" href="https://github.com/arya2004" rel="noopener" target="_blank">
               <span class="material-symbols-rounded">code</span> GitHub
@@ -146,8 +148,8 @@
               <div class="stat-lbl">LeetCode</div>
             </div>
             <div class="hero-stat">
-              <div class="stat-val">2</div>
-              <div class="stat-lbl">Publications</div>
+              <div class="stat-val">7</div>
+              <div class="stat-lbl">Hackathon wins</div>
             </div>
           </div>
         </div>
@@ -170,7 +172,17 @@
               <span class="exp-badge">Jan 2025 – Present</span>
             </div>
             <div class="exp-role">Software Development Engineer Intern · Pune, MH</div>
-            <ul class="exp-list">
+
+            <!-- Mobile: brief summary -->
+            <p class="exp-brief">
+              Redesigned the EGV gift card redemption workflow in a Java Dropwizard microservice, replacing per-card DB
+              queries with batch fetches to handle 300+ cards efficiently. Modernized test infra with Guice-based
+              injection,
+              eliminating config duplication across JUnit suites.
+            </p>
+
+            <!-- Desktop: full bullets -->
+            <ul class="exp-list exp-list-full">
               <li>Redesigned the EGV redemption workflow in a Java Dropwizard microservice to replace per-card DB
                 queries with shard-level batch fetches after balance reservation, enabling efficient redemption for
                 high-volume users (300+ gift cards) and reducing database load.</li>
@@ -180,6 +192,7 @@
             </ul>
           </div>
         </div>
+
         <div class="t-item reveal d2">
           <div class="t-dot"><span class="material-symbols-rounded">business_center</span></div>
           <div class="t-card">
@@ -188,16 +201,27 @@
               <span class="exp-badge">Jun 2025 – Aug 2025</span>
             </div>
             <div class="exp-role">Enterprise Technology &amp; Performance Intern · Pune, MH</div>
-            <ul class="exp-list">
+
+            <!-- Mobile: brief summary -->
+            <p class="exp-brief">
+              Built a Golang AI agent bot on Microsoft Teams using Gemini API to automate GCP IAM tasks via natural
+              language. Deployed a Cloud Run backend for bulk onboarding and audit logging — cutting setup time by
+              <strong>45%</strong>.
+            </p>
+
+            <!-- Desktop: full bullets -->
+            <ul class="exp-list exp-list-full">
               <li>Built and deployed a Golang-based AI agent bot integrated with Microsoft Teams to automate GCP
                 onboarding and account management via Gemini API function calling, enabling non-technical staff to
                 perform IAM, role, and service account operations through natural language.</li>
               <li>Designed a secure, cloud-native backend on Google Cloud Run supporting bulk onboarding, role
                 assignments, and audit logging — reducing multi-user setup and query resolution time by
-                <strong>45%</strong>.</li>
+                <strong>45%</strong>.
+              </li>
             </ul>
           </div>
         </div>
+
         <div class="t-item reveal d3">
           <div class="t-dot"><span class="material-symbols-rounded">web</span></div>
           <div class="t-card">
@@ -206,14 +230,24 @@
               <span class="exp-badge">Jun 2024 – Jul 2024</span>
             </div>
             <div class="exp-role">Web Development Intern · Pune, MH</div>
-            <ul class="exp-list">
+
+            <!-- Mobile: brief summary -->
+            <p class="exp-brief">
+              Built a sandboxed in-browser Python execution engine using WebAssembly and Pyodide for 500+ users.
+              Deployed a Node.js/Express RCE backend on AWS EC2, and published a C# NuGet package that cut
+              execution latency by <strong>30%</strong>.
+            </p>
+
+            <!-- Desktop: full bullets -->
+            <ul class="exp-list exp-list-full">
               <li>Built an in-browser Python execution environment leveraging WebAssembly and Pyodide, enabling
                 real-time, sandboxed code execution for 500+ game users across web, PC, and Mac platforms.</li>
               <li>Engineered and deployed a secure Python Remote Code Execution engine using Node.js and Express.js on
                 AWS EC2 with Nginx reverse proxy, processing 1K+ executions/month for 500+ users via WebAssembly and
                 Pyodide.</li>
               <li>Published a C# NuGet package for safe local Python code execution, reducing latency by
-                <strong>30%</strong>.</li>
+                <strong>30%</strong>.
+              </li>
             </ul>
           </div>
         </div>
@@ -285,8 +319,7 @@
           </div>
         </a>
 
-        <a class="proj-card reveal d4" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
+        <a class="proj-card reveal d4" href="https://github.com/arya2004/facilitator" rel="noopener" target="_blank">
           <div class="proj-icon-row">
             <div class="proj-icon"><span class="material-symbols-rounded">calendar_month</span></div>
             <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
@@ -306,8 +339,7 @@
           </div>
         </a>
 
-        <a class="proj-card reveal d1" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
+        <a class="proj-card reveal d1" href="https://github.com/arya2004/xphyrus" rel="noopener" target="_blank">
           <div class="proj-icon-row">
             <div class="proj-icon"><span class="material-symbols-rounded">school</span></div>
             <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
@@ -324,68 +356,6 @@
             <span class="tag tag-p">Angular</span>
             <span class="tag tag-s">RabbitMQ</span>
             <span class="tag tag-t">Kubernetes</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d2" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">account_balance</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Xyfin</div>
-            <div class="proj-sub">Banking Service Backend in Go</div>
-          </div>
-          <p class="proj-desc">Banking backend in Go with REST APIs, auth, transactions, gRPC services, Redis queues,
-            SMTP integration, and CI-driven Docker workflows. Includes robust testing, DB isolation, and cloud
-            deployment support.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Go</span>
-            <span class="tag tag-p">Gin</span>
-            <span class="tag tag-s">gRPC</span>
-            <span class="tag tag-t">Redis</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d3" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">query_stats</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Xcelerate</div>
-            <div class="proj-sub">End-to-End Machine Learning Application</div>
-          </div>
-          <p class="proj-desc">End-to-end ML application with ingestion, transformation, training, and deployment
-            pipeline. Achieved strong predictive performance and was containerized for Azure Web Apps deployment with CI
-            automation.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Python</span>
-            <span class="tag tag-p">Flask</span>
-            <span class="tag tag-s">Docker</span>
-            <span class="tag tag-t">Azure</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d4" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">monitor_heart</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">PulseGuard</div>
-            <div class="proj-sub">IoT Remote Patient Pulse Rate Monitoring System</div>
-          </div>
-          <p class="proj-desc">IoT-based pulse monitoring system with live dashboards and alerting for remote health
-            tracking. Combines embedded hardware, APIs, and visualization for continuous patient monitoring.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">ESP32</span>
-            <span class="tag tag-p">MongoDB</span>
-            <span class="tag tag-s">REST API</span>
-            <span class="tag tag-t">IoT</span>
           </div>
         </a>
 
@@ -409,108 +379,7 @@
           </div>
         </a>
 
-        <a class="proj-card reveal d2" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">light_mode</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Ray Tracer</div>
-            <div class="proj-sub">Basic Ray Tracer in C++</div>
-          </div>
-          <p class="proj-desc">Ray tracer built from scratch in C++ with core rendering, shading, and reflection
-            features. Structured with SDL2 and CMake-based build tooling.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">C++</span>
-            <span class="tag tag-p">SDL2</span>
-            <span class="tag tag-s">CMake</span>
-            <span class="tag tag-t">Rendering</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d3" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">traffic</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Traffic Analyst Tool</div>
-            <div class="proj-sub">Traffic Management and Analysis System</div>
-          </div>
-          <p class="proj-desc">Traffic analysis platform using real-time map data, backend analytics, and geospatial
-            integrations for management workflows and decision support.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Node.js</span>
-            <span class="tag tag-p">Express.js</span>
-            <span class="tag tag-s">MongoDB</span>
-            <span class="tag tag-t">TypeScript</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d4" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">sports_esports</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Chess Game</div>
-            <div class="proj-sub">Chess Game in C# WPF</div>
-          </div>
-          <p class="proj-desc">Desktop chess game with move validation, timers, maintainable MVVM architecture, and
-            polished WPF/XAML UI. Supports essential gameplay logic and state management.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">C#</span>
-            <span class="tag tag-p">WPF</span>
-            <span class="tag tag-s">MVVM</span>
-            <span class="tag tag-t">XAML</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d1" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">finance_mode</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Credit Score Classification</div>
-            <div class="proj-sub">Machine Learning Project</div>
-          </div>
-          <p class="proj-desc">Credit score classification project using R notebooks, preprocessing, SMOTE, and classic
-            ML algorithms such as Random Forest, Logistic Regression, and Naive Bayes.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">R</span>
-            <span class="tag tag-p">Random Forest</span>
-            <span class="tag tag-s">SMOTE</span>
-            <span class="tag tag-t">Jupyter</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d2" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">chat</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">GoBanter</div>
-            <div class="proj-sub">Lightweight Real-Time Chat Application</div>
-          </div>
-          <p class="proj-desc">Real-time chat app built with Go and Gorilla WebSocket for bi-directional messaging,
-            paired with a lightweight frontend and modular setup flow.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Go</span>
-            <span class="tag tag-p">WebSocket</span>
-            <span class="tag tag-s">jQuery</span>
-            <span class="tag tag-t">Pat</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d3" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
+        <a class="proj-card reveal d3" href="https://github.com/arya2004/arc" rel="noopener" target="_blank">
           <div class="proj-icon-row">
             <div class="proj-icon"><span class="material-symbols-rounded">memory</span></div>
             <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
@@ -529,145 +398,7 @@
           </div>
         </a>
 
-        <a class="proj-card reveal d4" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">volunteer_activism</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Vishwapreneur</div>
-            <div class="proj-sub">Decentralized Crowdfunding Platform</div>
-          </div>
-          <p class="proj-desc">Blockchain crowdfunding platform with Solidity smart contracts and a React/Next.js
-            frontend for transparent campaign creation and contribution workflows.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Solidity</span>
-            <span class="tag tag-p">React</span>
-            <span class="tag tag-s">Next.js</span>
-            <span class="tag tag-t">TypeScript</span>
-          </div>
-        </a>
 
-        <a class="proj-card reveal d1" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">currency_bitcoin</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">MicroCryptoMonitor</div>
-            <div class="proj-sub">Cryptocurrency Mining Monitoring System</div>
-          </div>
-          <p class="proj-desc">Monitoring system for crypto mining farms using ESP32 telemetry, InfluxDB, and Grafana
-            dashboards, orchestrated with Docker Compose for deployment.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">ESP32</span>
-            <span class="tag tag-p">InfluxDB</span>
-            <span class="tag tag-s">Grafana</span>
-            <span class="tag tag-t">Docker</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d2" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">extension</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">CMT Author Auto-Fill</div>
-            <div class="proj-sub">Chrome Extension for CMT</div>
-          </div>
-          <p class="proj-desc">Chrome extension that saves and auto-fills author metadata in Microsoft CMT forms through
-            a fast popup UI and browser automation flows.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">JavaScript</span>
-            <span class="tag tag-p">Chrome Extension</span>
-            <span class="tag tag-s">HTML</span>
-            <span class="tag tag-t">CSS</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d3" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">developer_board</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Turing Machine Simulator</div>
-            <div class="proj-sub">CLI Turing Machine Simulator in C</div>
-          </div>
-          <p class="proj-desc">CLI-based Turing Machine simulator with dynamic tape expansion, configurable transition
-            files, and optional initial tape input for flexible experimentation.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">C</span>
-            <span class="tag tag-p">GCC</span>
-            <span class="tag tag-s">CMake</span>
-            <span class="tag tag-t">CLI</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d4" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">article</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">Markdown Transpiler</div>
-            <div class="proj-sub">Markdown to HTML Converter</div>
-          </div>
-          <p class="proj-desc">Compiler-style Markdown transpiler built with Lex and Yacc to parse Markdown and emit
-            HTML, organized with CMake and extensible grammar rules.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">C++</span>
-            <span class="tag tag-p">Lex</span>
-            <span class="tag tag-s">Yacc</span>
-            <span class="tag tag-t">Bison</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d1" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">terminal</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">AutoExpress.Js</div>
-            <div class="proj-sub">Express.js Project Generator CLI</div>
-          </div>
-          <p class="proj-desc">Open-source Express.js scaffolding CLI that generates API and MVC project templates with
-            interactive prompts, DB setup options, and standardized project structure.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">Node.js</span>
-            <span class="tag tag-p">Express.js</span>
-            <span class="tag tag-s">CLI</span>
-            <span class="tag tag-t">JavaScript</span>
-          </div>
-        </a>
-
-        <a class="proj-card reveal d2" href="https://github.com/arya2004?tab=repositories" rel="noopener"
-          target="_blank">
-          <div class="proj-icon-row">
-            <div class="proj-icon"><span class="material-symbols-rounded">data_object</span></div>
-            <div class="proj-arrow"><span class="material-symbols-rounded">arrow_outward</span></div>
-          </div>
-          <div>
-            <div class="proj-name">XML Parser</div>
-            <div class="proj-sub">XML Parser in C</div>
-          </div>
-          <p class="proj-desc">XML parser in C for loading files, navigating trees, and accessing elements and
-            attributes efficiently using portable standard-library code.</p>
-          <div class="tag-row">
-            <span class="tag tag-p">C</span>
-            <span class="tag tag-p">Parser</span>
-            <span class="tag tag-s">XML</span>
-            <span class="tag tag-t">CLI</span>
-          </div>
-        </a>
       </div>
     </section>
     <div class="sec-line"></div>
@@ -681,66 +412,91 @@
         <div class="skill-grp reveal d1">
           <div class="sg-title"><span class="material-symbols-rounded">terminal</span> Languages</div>
           <div class="chips">
-            <span class="chip">Go</span><span class="chip">Java</span><span class="chip">Python</span>
-            <span class="chip">C</span><span class="chip">C#</span><span class="chip">JavaScript</span>
-            <span class="chip">TypeScript</span><span class="chip">Shell</span><span class="chip">SQL</span>
-            <span class="chip">Solidity</span><span class="chip">C++</span><span class="chip">R</span><span
-              class="chip">HTML/CSS</span>
-          </div>
-        </div>
-        <div class="skill-grp reveal d2">
-          <div class="sg-title"><span class="material-symbols-rounded">build</span> Frameworks</div>
-          <div class="chips">
-            <span class="chip">Dropwizard</span><span class="chip">Guice</span><span class="chip">Node.js</span>
-            <span class="chip">Express.js</span><span class="chip">Flask</span><span class="chip">ASP.NET Core</span>
-            <span class="chip">RabbitMQ</span><span class="chip">Nginx</span>
-            <span class="chip">.NET Framework</span><span class="chip">Angular</span><span
-              class="chip">React</span><span class="chip">Next.js</span><span class="chip">Gin</span><span
-              class="chip">PyTorch</span><span class="chip">HighChartsJs</span><span class="chip">PatchGAN</span><span
-              class="chip">U-Net</span><span class="chip">Lex</span><span class="chip">Yacc</span><span
-              class="chip">WebAssembly</span><span class="chip">Pyodide</span><span class="chip">Gorilla
-              WebSocket</span><span class="chip">xUnit</span><span class="chip">SCS</span><span
-              class="chip">Bootstrap</span><span class="chip">Fyne</span><span class="chip">gopacket</span>
-          </div>
-        </div>
-        <div class="skill-grp reveal d3">
-          <div class="sg-title"><span class="material-symbols-rounded">storage</span> Databases</div>
-          <div class="chips">
-            <span class="chip">PostgreSQL</span><span class="chip">MySQL</span><span class="chip">MongoDB</span>
-            <span class="chip">Redis</span><span class="chip">InfluxDB</span><span class="chip">AWS RDS</span>
-            <span class="chip">SQL Server</span>
-          </div>
-        </div>
-        <div class="skill-grp reveal d4">
-          <div class="sg-title"><span class="material-symbols-rounded">cloud</span> Cloud / DevOps</div>
-          <div class="chips">
-            <span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">GCP</span>
-            <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">GitHub Actions</span>
-            <span class="chip">Prometheus</span><span class="chip">Grafana</span><span class="chip">Linux</span>
-            <span class="chip">Vagrant</span><span class="chip">EC2</span><span class="chip">Elastic Load
-              Balancer</span>
-          </div>
-        </div>
-        <div class="skill-grp reveal d5">
-          <div class="sg-title"><span class="material-symbols-rounded">handyman</span> Dev Tools</div>
-          <div class="chips">
-            <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">GitLab</span>
-            <span class="chip">Swagger</span><span class="chip">Postman</span><span class="chip">VS Code</span>
-            <span class="chip">IntelliJ</span><span class="chip">CMake</span>
-            <span class="chip">Visual Studio</span><span class="chip">Jupyter</span><span class="chip">GCC</span><span
-              class="chip">Makefile</span><span class="chip">Docker Compose</span><span class="chip">Flex</span><span
-              class="chip">Bison</span><span class="chip">Chrome Extension APIs</span>
+            <a class="chip" href="https://golang.org" rel="noopener" target="_blank">Go</a><a class="chip"
+              href="https://www.java.com" rel="noopener" target="_blank">Java</a><a class="chip"
+              href="https://www.python.org" rel="noopener" target="_blank">Python</a>
+            <a class="chip" href="https://en.cppreference.com/w/c" rel="noopener" target="_blank">C</a><a class="chip"
+              href="https://docs.microsoft.com/en-us/dotnet/csharp/" rel="noopener" target="_blank">C#</a><a
+              class="chip" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noopener"
+              target="_blank">JavaScript</a>
+            <a class="chip" href="https://www.typescriptlang.org" rel="noopener" target="_blank">TypeScript</a><a
+              class="chip" href="https://www.gnu.org/software/bash/" rel="noopener" target="_blank">Shell</a><a
+              class="chip" href="https://www.w3schools.com/sql/" rel="noopener" target="_blank">SQL</a>
+            <a class="chip" href="https://cplusplus.com/" rel="noopener" target="_blank">C++</a><a class="chip"
+              href="https://soliditylang.org" rel="noopener" target="_blank">Solidity</a>
           </div>
         </div>
 
         <div class="skill-grp reveal d2">
-          <div class="sg-title"><span class="material-symbols-rounded">bolt</span> Specialized</div>
+          <div class="sg-title"><span class="material-symbols-rounded">build</span> Frameworks</div>
           <div class="chips">
-            <span class="chip">gRPC</span><span class="chip">JWT / PASETO</span><span class="chip">OpenTelemetry</span>
-            <span class="chip">WebSockets</span><span class="chip">Smart Contracts</span><span class="chip">IoT
-              Systems</span>
-            <span class="chip">Packet Analysis</span><span class="chip">GANs</span><span class="chip">Compiler
-              Design</span>
+            <a class="chip" href="https://www.dropwizard.io" rel="noopener" target="_blank">Dropwizard</a><a
+              class="chip" href="https://github.com/google/guice" rel="noopener" target="_blank">Guice</a><a
+              class="chip" href="https://gin-gonic.com" rel="noopener" target="_blank">Gin</a>
+            <a class="chip" href="https://nodejs.org" rel="noopener" target="_blank">Node.js</a><a class="chip"
+              href="https://expressjs.com" rel="noopener" target="_blank">Express.js</a><a class="chip"
+              href="https://flask.palletsprojects.com" rel="noopener" target="_blank">Flask</a>
+            <a class="chip" href="https://dotnet.microsoft.com/en-us/apps/aspnet" rel="noopener" target="_blank">ASP.NET
+              Core</a><a class="chip" href="https://www.rabbitmq.com" rel="noopener" target="_blank">RabbitMQ</a><a
+              class="chip" href="https://nginx.org" rel="noopener" target="_blank">Nginx</a>
+            <a class="chip" href="https://angular.io" rel="noopener" target="_blank">Angular</a><a class="chip"
+              href="https://react.dev" rel="noopener" target="_blank">React</a><a class="chip" href="https://nextjs.org"
+              rel="noopener" target="_blank">Next.js</a>
+            <a class="chip" href="https://pytorch.org" rel="noopener" target="_blank">PyTorch</a><a class="chip"
+              href="https://grpc.io" rel="noopener" target="_blank">gRPC</a><a class="chip" href="https://jwt.io"
+              rel="noopener" target="_blank">JWT / PASETO</a>
+            <a class="chip" href="https://datatracker.ietf.org/doc/html/rfc6455" rel="noopener"
+              target="_blank">WebSockets</a><a class="chip" href="https://opentelemetry.io" rel="noopener"
+              target="_blank">OpenTelemetry</a>
+          </div>
+        </div>
+
+        <div class="skill-grp reveal d3">
+          <div class="sg-title"><span class="material-symbols-rounded">storage</span> Databases</div>
+          <div class="chips">
+            <a class="chip" href="https://www.postgresql.org" rel="noopener" target="_blank">PostgreSQL</a><a
+              class="chip" href="https://www.mysql.com" rel="noopener" target="_blank">MySQL</a><a class="chip"
+              href="https://www.mongodb.com" rel="noopener" target="_blank">MongoDB</a>
+            <a class="chip" href="https://redis.io" rel="noopener" target="_blank">Redis</a><a class="chip"
+              href="https://www.influxdata.com" rel="noopener" target="_blank">InfluxDB</a><a class="chip"
+              href="https://aws.amazon.com/rds/" rel="noopener" target="_blank">AWS RDS</a>
+            <a class="chip" href="https://www.microsoft.com/en-us/sql-server" rel="noopener" target="_blank">SQL
+              Server</a>
+          </div>
+        </div>
+
+        <div class="skill-grp reveal d4">
+          <div class="sg-title"><span class="material-symbols-rounded">cloud</span> Cloud / DevOps</div>
+          <div class="chips">
+            <a class="chip" href="https://aws.amazon.com" rel="noopener" target="_blank">AWS</a><a class="chip"
+              href="https://azure.microsoft.com" rel="noopener" target="_blank">Azure</a><a class="chip"
+              href="https://cloud.google.com" rel="noopener" target="_blank">GCP</a>
+            <a class="chip" href="https://www.docker.com" rel="noopener" target="_blank">Docker</a><a class="chip"
+              href="https://kubernetes.io" rel="noopener" target="_blank">Kubernetes</a><a class="chip"
+              href="https://github.com/features/actions" rel="noopener" target="_blank">GitHub Actions</a>
+            <a class="chip" href="https://prometheus.io" rel="noopener" target="_blank">Prometheus</a><a class="chip"
+              href="https://grafana.com" rel="noopener" target="_blank">Grafana</a><a class="chip"
+              href="https://www.linux.org" rel="noopener" target="_blank">Linux</a>
+            <a class="chip" href="https://aws.amazon.com/ec2/" rel="noopener" target="_blank">EC2</a><a class="chip"
+              href="https://aws.amazon.com/elasticloadbalancing/" rel="noopener" target="_blank">Elastic Load
+              Balancer</a>
+          </div>
+        </div>
+
+        <div class="skill-grp reveal d5">
+          <div class="sg-title"><span class="material-symbols-rounded">handyman</span> Dev Tools</div>
+          <div class="chips">
+            <a class="chip" href="https://git-scm.com" rel="noopener" target="_blank">Git</a><a class="chip"
+              href="https://github.com" rel="noopener" target="_blank">GitHub</a><a class="chip"
+              href="https://gitlab.com" rel="noopener" target="_blank">GitLab</a>
+            <a class="chip" href="https://swagger.io" rel="noopener" target="_blank">Swagger</a><a class="chip"
+              href="https://www.postman.com" rel="noopener" target="_blank">Postman</a><a class="chip"
+              href="https://code.visualstudio.com" rel="noopener" target="_blank">VS Code</a>
+            <a class="chip" href="https://www.jetbrains.com/idea/" rel="noopener" target="_blank">IntelliJ</a><a
+              class="chip" href="https://visualstudio.microsoft.com" rel="noopener" target="_blank">Visual Studio</a>
+            <a class="chip" href="https://docs.docker.com/compose/" rel="noopener" target="_blank">Docker Compose</a><a
+              class="chip" href="https://cmake.org" rel="noopener" target="_blank">CMake</a><a class="chip"
+              href="https://jupyter.org" rel="noopener" target="_blank">Jupyter</a>
           </div>
         </div>
       </div>
@@ -798,37 +554,43 @@
       <div class="ach-grid">
         <div class="ach-item reveal d1">
           <span class="ach-emoji">🥇</span>
-          <span class="ach-text">1st place — PhonePe Bootcamp Hackathon</span>
+          <span class="ach-text">1st place &amp; PPO offer (27 LPA) — Juspay Hiring Challenge · Jan 2026</span>
         </div>
         <div class="ach-item reveal d2">
+          <span class="ach-emoji">🥇</span>
+          <span class="ach-text">1st place — PhonePe Bootcamp Hackathon</span>
+        </div>
+        <div class="ach-item reveal d3">
           <span class="ach-emoji">🏆</span>
           <span class="ach-text">Top 15 Finalist — Deloitte Hackspliosion Hackathon</span>
         </div>
-        <div class="ach-item reveal d3">
-          <span class="ach-emoji">📄</span>
-          <span class="ach-text">Best Paper — IEEE ESCI 2025</span>
-        </div>
         <div class="ach-item reveal d4">
-          <span class="ach-emoji">💵</span>
-          <span class="ach-text">$225 Prize — Hackspiration '24</span>
+          <span class="ach-emoji">📄</span>
+          <span class="ach-text">Best Paper of the Session — IEEE ESCI 2025 (Smart Computing track)</span>
         </div>
         <div class="ach-item reveal d1">
-          <span class="ach-emoji">🚀</span>
-          <span class="ach-text">3rd place — Astrafizz AI in Space Challenge</span>
+          <span class="ach-emoji">🎟️</span>
+          <span class="ach-text">Sweepstakes Winner — Microsoft AI Skills Fest · Free certification voucher · May
+            2025</span>
         </div>
         <div class="ach-item reveal d2">
-          <span class="ach-emoji">🌿</span>
-          <span class="ach-text">Winner — Biomimicry Build-a-thon</span>
+          <span class="ach-emoji">💵</span>
+          <span class="ach-text">$225 Prize — AI &amp; Verbwire API track, Hackspiration '24 · MLSC VIT Pune</span>
         </div>
         <div class="ach-item reveal d3">
+          <span class="ach-emoji">🚀</span>
+          <span class="ach-text">3rd place — Astrafizz National Level Hackathon · Jan 2024</span>
+        </div>
+        <div class="ach-item reveal d4">
+          <span class="ach-emoji">🌿</span>
+          <span class="ach-text">Category Winner — Biomimicry Build-a-thon · IYBS · Feb 2025</span>
+        </div>
+        <div class="ach-item reveal d1">
           <span class="ach-emoji">🥈</span>
           <span class="ach-text">Runner-up — ISA GenDev Hackathon</span>
         </div>
-        <div class="ach-item reveal d4">
-          <span class="ach-emoji">🎯</span>
-          <span class="ach-text">11th place — KIMO's-Edge '23</span>
-        </div>
       </div>
+
       <!-- Competitive Programming -->
       <div style="margin-top: 36px;">
         <div class="sec-head reveal">
@@ -955,6 +717,8 @@
           Elastic Load Balancer) ·
           Mentored for Girlscript Summer of Code and Social Winter of Code
         </div>
+
+
       </div>
     </section>
   </main>

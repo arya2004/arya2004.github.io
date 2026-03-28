@@ -421,6 +421,14 @@ section {
 }
 .hero-name .accent { color: var(--primary); }
 
+.hero-tagline {
+  font-size: 0.95rem;
+  color: var(--on-surface-var);
+  line-height: 1.75;
+  margin: 0.5rem 0 1.25rem;
+  max-width: 520px;
+}
+
 .hero-role {
   font-size: clamp(1rem, 2.5vw, 1.3rem);
   font-weight: 400;
@@ -581,11 +589,29 @@ section {
   display: flex; gap: 10px;
   font-size: 0.875rem; line-height: 1.65;
   color: var(--on-surface);
+  text-align: justify;
 }
 .exp-list li::before {
   content: '◆';
   color: var(--primary); font-size: 0.45rem;
   margin-top: 7px; flex-shrink: 0;
+}
+
+.exp-brief {
+  display: none;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--on-surface);
+  padding-left: 0;
+  margin: 8px 0 0;
+  position: relative;
+  text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+  .exp-brief { display: block; }
+  .exp-list-full { display: none; }
 }
 
 /* ═══════════════════════════════════════
@@ -647,6 +673,7 @@ section {
 .proj-desc {
   font-size: 0.875rem; line-height: 1.65;
   color: var(--on-surface-var); flex: 1;
+  text-align: justify;
 }
 .tag-row { display: flex; flex-wrap: wrap; gap: 7px; }
 .tag {
@@ -1007,6 +1034,13 @@ footer {
     padding-bottom: var(--bnav-h);
   }
 
+  .exp-brief {
+    display: block;
+  }
+  .exp-list-full {
+    display: none;
+  }
+
   footer {
     margin-left: 0;
     padding: 24px 20px;
@@ -1038,6 +1072,7 @@ footer {
   .t-card { padding: 18px 20px; border-radius: 20px 20px 20px 4px; }
 
   .projects-grid { grid-template-columns: 1fr; }
+  .proj-desc { display: none; }
   .skills-grid   { grid-template-columns: 1fr; }
   .ach-grid      { grid-template-columns: 1fr; }
   .certs-grid    { grid-template-columns: 1fr; }
